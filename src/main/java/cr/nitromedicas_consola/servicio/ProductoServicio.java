@@ -3,9 +3,11 @@ package cr.nitromedicas_consola.servicio;
 import cr.nitromedicas_consola.modelo.Producto;
 import cr.nitromedicas_consola.repositorio.ProductoRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ProductoServicio implements IProductoServicio {
 
     @Autowired
